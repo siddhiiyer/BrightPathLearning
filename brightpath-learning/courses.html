@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse BrightPath Learning courses in coding, design, marketing, and soft skills. Affordable, job-ready online programs.">
+  <title>Courses | BrightPath Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <span class="logo-icon" aria-hidden="true">✦</span>
+        BrightPath
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary nav-cta">Get Started</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-label">Our Courses</span>
+        <h1>Skills That Open Doors</h1>
+        <p>Choose from 48 expert-led programs across tech, design, marketing, and communication. Every course includes projects, mentor support, and a certificate on completion.</p>
+      </div>
+    </section>
+
+    <section class="courses-section">
+      <div class="container">
+        <div class="course-filters" role="tablist" aria-label="Filter courses by category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Courses</button>
+          <button class="filter-btn" data-filter="tech" role="tab" aria-selected="false">Tech</button>
+          <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Design</button>
+          <button class="filter-btn" data-filter="marketing" role="tab" aria-selected="false">Marketing</button>
+          <button class="filter-btn" data-filter="soft" role="tab" aria-selected="false">Soft Skills</button>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Tech -->
+          <article class="course-card" data-category="tech">
+            <div class="course-card-image tech" aria-hidden="true">
+              💻
+              <span class="course-card-badge">Bestseller</span>
+            </div>
+            <div class="course-card-body">
+              <h3>Python for Beginners</h3>
+              <p class="course-card-description">Learn Python from scratch through hands-on projects. Build a data analyzer, a web scraper, and a simple automation tool.</p>
+              <div class="course-card-meta">
+                <span>⏱ 6 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$79</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="tech">
+            <div class="course-card-image tech" aria-hidden="true">🌐</div>
+            <div class="course-card-body">
+              <h3>Web Development Bootcamp</h3>
+              <p class="course-card-description">Master HTML, CSS, and JavaScript by building responsive websites and a portfolio-ready personal project from the ground up.</p>
+              <div class="course-card-meta">
+                <span>⏱ 10 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$129</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="tech">
+            <div class="course-card-image tech" aria-hidden="true">⚛️</div>
+            <div class="course-card-body">
+              <h3>React &amp; Modern Frontend</h3>
+              <p class="course-card-description">Go beyond basics with React, component architecture, state management, and API integration. Build a full dashboard app.</p>
+              <div class="course-card-meta">
+                <span>⏱ 8 weeks</span>
+                <span>📊 Intermediate</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$149</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="tech">
+            <div class="course-card-image tech" aria-hidden="true">🗄️</div>
+            <div class="course-card-body">
+              <h3>SQL &amp; Database Essentials</h3>
+              <p class="course-card-description">Write efficient queries, design relational schemas, and understand how data powers every modern application.</p>
+              <div class="course-card-meta">
+                <span>⏱ 5 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$69</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Design -->
+          <article class="course-card" data-category="design">
+            <div class="course-card-image design" aria-hidden="true">🎨</div>
+            <div class="course-card-body">
+              <h3>UI/UX Design Fundamentals</h3>
+              <p class="course-card-description">Learn user research, wireframing, prototyping, and visual design principles using Figma. Ship a case study for your portfolio.</p>
+              <div class="course-card-meta">
+                <span>⏱ 8 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$99</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="design">
+            <div class="course-card-image design" aria-hidden="true">✏️</div>
+            <div class="course-card-body">
+              <h3>Graphic Design for Beginners</h3>
+              <p class="course-card-description">Create logos, social media graphics, and marketing materials. Understand typography, color theory, and layout composition.</p>
+              <div class="course-card-meta">
+                <span>⏱ 6 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$79</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="design">
+            <div class="course-card-image design" aria-hidden="true">📱</div>
+            <div class="course-card-body">
+              <h3>Mobile App Design</h3>
+              <p class="course-card-description">Design intuitive mobile interfaces with iOS and Android patterns. Prototype flows and conduct usability testing.</p>
+              <div class="course-card-meta">
+                <span>⏱ 7 weeks</span>
+                <span>📊 Intermediate</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$109</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Marketing -->
+          <article class="course-card" data-category="marketing">
+            <div class="course-card-image marketing" aria-hidden="true">📈</div>
+            <div class="course-card-body">
+              <h3>Digital Marketing Bootcamp</h3>
+              <p class="course-card-description">Master SEO, social media strategy, email campaigns, and Google Analytics. Run a real campaign for a mock client.</p>
+              <div class="course-card-meta">
+                <span>⏱ 5 weeks</span>
+                <span>📊 Intermediate</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$89</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="marketing">
+            <div class="course-card-image marketing" aria-hidden="true">📣</div>
+            <div class="course-card-body">
+              <h3>Social Media Marketing</h3>
+              <p class="course-card-description">Build a content strategy, grow an audience, and create engaging posts for Instagram, LinkedIn, and TikTok.</p>
+              <div class="course-card-meta">
+                <span>⏱ 4 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$59</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="marketing">
+            <div class="course-card-image marketing" aria-hidden="true">🔍</div>
+            <div class="course-card-body">
+              <h3>SEO Fundamentals</h3>
+              <p class="course-card-description">Understand how search engines work, optimize web pages, conduct keyword research, and track rankings effectively.</p>
+              <div class="course-card-meta">
+                <span>⏱ 4 weeks</span>
+                <span>📊 Beginner</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$49</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Soft Skills -->
+          <article class="course-card" data-category="soft">
+            <div class="course-card-image soft" aria-hidden="true">🎤</div>
+            <div class="course-card-body">
+              <h3>Public Speaking &amp; Confidence</h3>
+              <p class="course-card-description">Overcome stage fright, structure compelling presentations, and deliver with clarity in classrooms, interviews, and meetings.</p>
+              <div class="course-card-meta">
+                <span>⏱ 4 weeks</span>
+                <span>📊 All Levels</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$59</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="soft">
+            <div class="course-card-image soft" aria-hidden="true">✍️</div>
+            <div class="course-card-body">
+              <h3>Business Writing &amp; Communication</h3>
+              <p class="course-card-description">Write clear emails, reports, and proposals. Communicate professionally in any workplace setting.</p>
+              <div class="course-card-meta">
+                <span>⏱ 3 weeks</span>
+                <span>📊 All Levels</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$49</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="soft">
+            <div class="course-card-image soft" aria-hidden="true">🤝</div>
+            <div class="course-card-body">
+              <h3>Interview Skills Masterclass</h3>
+              <p class="course-card-description">Prepare for behavioral and technical interviews with mock sessions, STAR method practice, and negotiation tips.</p>
+              <div class="course-card-meta">
+                <span>⏱ 3 weeks</span>
+                <span>📊 All Levels</span>
+              </div>
+              <div class="course-card-price">
+                <span class="price">$69</span>
+                <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">Enroll</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Helper Section -->
+    <section class="courses-helper">
+      <div class="container">
+        <div class="helper-card">
+          <h2>Not Sure Where to Start?</h2>
+          <p>Book a free 15-minute consultation with a learning advisor. We'll help you pick the right course based on your goals, schedule, and experience level — no pressure, no sales pitch.</p>
+          <a href="contact.html" class="btn btn-primary">Book Free Consultation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon" aria-hidden="true">✦</span>
+          BrightPath
+        </a>
+        <p>Empowering students and young professionals with practical, affordable skills for the modern workplace.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="courses.html">Tech &amp; Coding</a></li>
+          <li><a href="courses.html">Design</a></li>
+          <li><a href="courses.html">Marketing</a></li>
+          <li><a href="courses.html">Soft Skills</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Help Center</a></li>
+          <li><a href="contact.html">Free Consultation</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 BrightPath Learning. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Twitter">𝕏</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
